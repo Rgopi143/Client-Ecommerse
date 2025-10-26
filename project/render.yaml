@@ -2,6 +2,7 @@ services:
   - type: web
     name: ecommerce-app
     env: static
+    rootDir: project
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     routes:
