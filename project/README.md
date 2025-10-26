@@ -11,7 +11,7 @@ A stunning, fully functional e-commerce website built with React, TypeScript, Ta
 - ⚡ **Fast Performance** - Optimized with Vite and modern React patterns
 - 💾 **Persistent Cart** - Cart data saved in localStorage
 - 🎯 **Category Navigation** - Easy browsing by product categories
-- 🌟 **Product Cards** - Stunning product displays with ratings and discounts
+- 🌟 **Product Cards** - Stunning product displays with ratings and discountsA
 
 ## 🚀 Getting Started
 
