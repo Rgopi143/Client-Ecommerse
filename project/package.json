@@ -10,9 +10,10 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "build:production": "NODE_ENV=production vite build",
-    "build:render": "npm install && npm run build",
+    "build:render": "npm ci && npm run typecheck && npm run lint && npm run build",
     "build:vercel": "npm run build",
     "build:netlify": "npm run build",
+    "deploy:render": "npm run build:render",
     "deploy:vercel": "vercel --prod",
     "deploy:netlify": "netlify deploy --prod",
     "start": "vite preview --port $PORT"
