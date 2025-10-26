@@ -8,7 +8,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "build:production": "NODE_ENV=production vite build",
+    "build:render": "npm install && npm run build",
+    "build:vercel": "npm run build",
+    "build:netlify": "npm run build",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod",
+    "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
