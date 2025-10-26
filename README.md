@@ -1,4 +1,5 @@
-# 🛍️ Flipkart Clone - E-commerce Website
+# 🛍️ 
+E-commerce Website
 
 A stunning, fully functional e-commerce website built with React, TypeScript, Tailwind CSS, and Supabase.
 
